@@ -1,0 +1,100 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: url('temizlik-banner.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.5em;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    background: white;
+    margin: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Services */
+.services p {
+    font-size: 1.2em;
+}
+
+/* Gallery */
+.gallery {
+    background-color: #f9f9f9;
+}
+
+.gallery-items img,
+.gallery-items video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Contact Info */
+.contact-info {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
